@@ -77,10 +77,9 @@ minishell> exit
 $
 ```
 
-## Authors
+## Co-author
 
-- **Pol** - [github.com/pablovilchez](https://github.com/pablovilchez)
-- **Gabi** - [github.com/gkrusta](https://github.com/gkrusta)
+- **Gabriela** - [github.com/gkrusta](https://github.com/gkrusta)
 
 ## License
 
@@ -89,5 +88,6 @@ This project is licensed under the MIT License.
 ## Acknowledgments
 
 - Thanks to 42 School for the project guidelines and support.
+- Special thanks to my teammate Gabriela for his incredible effort, hard work, and for putting up with me throughout the project.
 
 ---
