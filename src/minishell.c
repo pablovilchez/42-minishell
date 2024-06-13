@@ -62,9 +62,6 @@ void	ft_init(t_shell *shell, char **envp)
 
 void	run_input(char *input, t_shell *shell)
 {
-	int	i;
-
-	i = 0;
 	add_history(input);
 	if (!empty_input(input))
 	{
