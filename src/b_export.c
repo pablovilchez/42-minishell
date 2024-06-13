@@ -61,7 +61,7 @@ void	extract_values(char *arg, t_list *new_arg)
 	new_arg->value = ft_calloc(ft_strlen(arg) + 1, 1);
 	while (arg[i] && arg[i] != '=')
 	{
-		ft_memcpy(&new_arg->key[i], &arg[i], 1);
+		ft_memcpy(&((char*)new_arg->key)[i], &arg[i], 1);
 		i++;
 	}
 	if (arg[i] == '=')
@@ -73,7 +73,7 @@ void	extract_values(char *arg, t_list *new_arg)
 		new_arg->init = 0;
 	while (arg[i])
 	{
-		ft_memcpy(&new_arg->value[j], &arg[i], 1);
+		ft_memcpy(&((char*)new_arg->value)[j], &arg[i], 1);
 		i++;
 		j++;
 	}
