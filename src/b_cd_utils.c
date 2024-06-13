@@ -48,9 +48,7 @@ char	*get_value(t_shell *shell, char *key)
 void	ft_export_pwds(t_shell *shell, char *old_dir, char *new_dir, char *arg)
 {
 	char	**changes;
-	char	*dir;
 
-	dir = ft_strrchr(new_dir, '/');
 	if (chdir(new_dir) == -1)
 	{
 		ft_printf("minishell: cd: %s: No such file or directory\n", arg);
